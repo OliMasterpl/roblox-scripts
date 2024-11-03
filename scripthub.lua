@@ -31,6 +31,20 @@ Games:AddButton({
   	end    
 })
 
+Games:AddButton({
+	Name = "KAT!",
+	Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/cOpEtriNe/Katware-/main/Script'))()
+  	end    
+})
+
+Games:AddButton({
+	Name = "Murder Mystery 2!",
+	Callback = function()
+            loadstring(game:GetObjects('rbxassetid://4001118261')[1].Source)()
+  	end    
+})
+
 
 --Universal
 local Universal = Window:MakeTab({
