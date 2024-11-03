@@ -53,3 +53,10 @@ Universal:AddButton({
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Cynacol/Dark-Dex-V3/refs/heads/main/Dark%20Dex%20V3.txt'))()
   	end    
 })
+
+Universal:AddButton({
+	Name = "Fling menu!",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/OliMasterpl/roblox-scripts/refs/heads/main/fling.lua", true))()
+  	end    
+})
