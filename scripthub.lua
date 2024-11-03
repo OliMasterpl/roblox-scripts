@@ -23,6 +23,13 @@ Games:AddButton({
   	end    
 })
 
+Games:AddButton({
+	Name = "Break in 2!",
+	Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/danielontopp/scripts/main/77_OCM25E2M.lua.txt",true))()
+            loadstring(game:HttpGet(('https://pastebin.com/raw/Vf6Bm1rZ'),true))()
+  	end    
+})
 
 
 --Universal
@@ -33,14 +40,14 @@ local Universal = Window:MakeTab({
 })
 
 
-Games:AddButton({
+Universal:AddButton({
 	Name = "Infinite Yield!",
 	Callback = function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 
-Games:AddButton({
+Universal:AddButton({
 	Name = "Dark Dex v3!",
 	Callback = function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Cynacol/Dark-Dex-V3/refs/heads/main/Dark%20Dex%20V3.txt'))()
