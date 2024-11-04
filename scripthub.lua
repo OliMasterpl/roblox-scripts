@@ -27,7 +27,6 @@ Games:AddButton({
 	Name = "Break in 2!",
 	Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/danielontopp/scripts/main/77_OCM25E2M.lua.txt",true))()
-            loadstring(game:HttpGet(('https://pastebin.com/raw/Vf6Bm1rZ'),true))()
   	end    
 })
 
