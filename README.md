@@ -1,0 +1,5 @@
+ALL THE SCRIPTS HERE ARE NOT MADE BY ME (but script hub is made by me)
+
+DISCOrd: progamer123123__04853
+
+TESTED WITH: CXAPI
