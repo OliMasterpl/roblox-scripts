@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 OrionLib:MakeNotification({
-	Name = "Thanks for using Case Executor!",
+	Name = "Thank you for using ace's script hub!",
 	Content = "<3",
 	Image = "",
 	Time = 5
